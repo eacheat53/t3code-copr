@@ -6,8 +6,8 @@
 %global __provides_exclude_from ^/opt/%{name}/.*$
 %global __requires_exclude_from ^/opt/%{name}/.*$
 
-%global upstream_tag v0.1.11
-%global package_version 0.1.11
+%global upstream_tag v0.1.12
+%global package_version 0.1.12
 
 Name:           t3code
 Version:        %{package_version}
@@ -16,7 +16,7 @@ Summary:        Desktop control surface for local coding agents
 
 License:        MIT
 URL:            https://github.com/pingdotgg/t3code
-Source0:        https://github.com/pingdotgg/t3code/releases/download/v0.1.11/T3-Code-x86_64.AppImage#/%{name}-%{version}-x86_64.AppImage
+Source0:        https://github.com/pingdotgg/t3code/releases/download/v0.1.12/T3-Code-x86_64.AppImage#/%{name}-%{version}-x86_64.AppImage
 Source1:        https://raw.githubusercontent.com/pingdotgg/t3code/%{upstream_tag}/LICENSE#/%{name}-%{version}-LICENSE
 
 ExclusiveArch:  x86_64
@@ -114,5 +114,5 @@ DESKTOP
 %{_datadir}/icons/hicolor/*/apps/t3code.png
 
 %changelog
-* Tue Nov 24 2026 Automation <actions@github.com> - 0.1.11-1
-- Repackage upstream v0.1.11
+* Wed Nov 25 2026 Automation <actions@github.com> - 0.1.12-1
+- Repackage upstream v0.1.12
