@@ -6,8 +6,8 @@
 %global __provides_exclude_from ^/opt/%{name}/.*$
 %global __requires_exclude_from ^/opt/%{name}/.*$
 
-%global upstream_tag v0.1.14-nightly.20261127.5332
-%global package_version 0.1.14~nightly.20261127.5332
+%global upstream_tag v0.1.14-nightly.20261128.5372
+%global package_version 0.1.14~nightly.20261128.5372
 
 Name:           t3code-nightly
 Version:        %{package_version}
@@ -16,7 +16,7 @@ Summary:        Nightly desktop control surface for local coding agents
 
 License:        MIT
 URL:            https://github.com/pingdotgg/t3code
-Source0:        https://github.com/pingdotgg/t3code/releases/download/v0.1.14-nightly.20261127.5332/T3-Code-Nightly-x86_64.AppImage#/%{name}-%{version}-x86_64.AppImage
+Source0:        https://github.com/pingdotgg/t3code/releases/download/v0.1.14-nightly.20261128.5372/T3-Code-Nightly-x86_64.AppImage#/%{name}-%{version}-x86_64.AppImage
 Source1:        https://raw.githubusercontent.com/pingdotgg/t3code/%{upstream_tag}/LICENSE#/%{name}-%{version}-LICENSE
 
 ExclusiveArch:  x86_64
@@ -114,5 +114,5 @@ DESKTOP
 %{_datadir}/icons/hicolor/*/apps/t3code-nightly.png
 
 %changelog
-* Fri Nov 27 2026 Automation <actions@github.com> - 0.1.14~nightly.20261127.5332-1
-- Repackage upstream v0.1.14-nightly.20261127.5332
+* Sat Nov 28 2026 Automation <actions@github.com> - 0.1.14~nightly.20261128.5372-1
+- Repackage upstream v0.1.14-nightly.20261128.5372

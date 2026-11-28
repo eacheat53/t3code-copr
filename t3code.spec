@@ -114,5 +114,5 @@ DESKTOP
 %{_datadir}/icons/hicolor/*/apps/t3code.png
 
 %changelog
-* Fri Nov 27 2026 Automation <actions@github.com> - 0.1.13-1
+* Sat Nov 28 2026 Automation <actions@github.com> - 0.1.13-1
 - Repackage upstream v0.1.13
